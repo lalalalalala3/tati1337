@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Портфолио</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="img/me.jpg" alt="Фото профиля" class="profile-pic">
+      <h1>Татьяна Полещук</h1>
+      <p>Всем привет я Полещук Татьяна Дмитриевна студентка ГПОАО АУ "Амурский Педагогический Колледж"3 курс специальности " Информационные системы и программирование". <br>
+         С каждым днём в колледже я узнаю для себя что-то новое. <br>
+         После окончания колледжа я хочу получить педагогическое образование и стать учителем информатики. <br>
+         В свободное время мне нравится увлекаться видеомонтажом. <br>
+        Сейчас я работаю в программах CorelDraw, Adobe Photoshop, 1C:Enterprise, а так же учусь программировать на Python</p>
+    </div>
+  </header>
+  <main>
+    <section class="achievements">
+      <h2>Мои грамоты</h2>
+      <div>
+      <h3>1 курс</h3>
+      <div class="photo-block" id="achievements-block">
+        <img src="img/11.jpg" alt="Грамота 1">
+        <img src="img/12.jpg" alt="Грамота 2">
+      </div>
+    </div>
+    <div>
+      <h3>2 курс</h3>
+      <div class="photo-block" id="achievements-block">
+        <img src="img/9.jpg" alt="Грамота 1">
+        <img src="img/10.jpg" alt="Грамота 2">
+        <img src="img/8.jpg" alt="Грамота 3">
+      </div>
+    </div>
+    <div>
+      <h3>3 курс</h3>
+      <div class="photo-block" id="achievements-block">
+        <img src="img/5.jpg" alt="Грамота 1">
+        <img src="img/6.jpg" alt="Грамота 2">
+        <img src="img/7.jpg" alt="Грамота 3">
+      </div>
+    </div>
+    </section>
+    <section class="projects">
+      <h2>Мои проекты</h2>
+      <div class="video-block" id="projects-block">
+        <video controls>
+          <source src="img/1.MOV" type="video/mp4">
+          Ваш браузер не поддерживает видео.
+        </video>
+        <video controls>
+          <source src="img/2.MOV" type="video/mp4">
+          Ваш браузер не поддерживает видео.
+        </video>
+        <video controls>
+          <source src="img/3.MOV" type="video/mp4">
+          Ваш браузер не поддерживает видео.
+        </video>
+        <video controls>
+          <source src="img/4.MOV" type="video/mp4">
+          Ваш браузер не поддерживает видео.
+        </video>
+      </div>
+      <button class="toggle-button" onclick="toggleProjects()">Показать/Скрыть проекты</button>
+    </section>
+    <div class="button-container">
+      <button class="go-to-contact" onclick="navigateToContact()">Связаться со мной</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
